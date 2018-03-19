@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="63058" started-at="2018-03-19T21:44:11Z" finished-at="2018-03-19T21:45:14Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="63058" started-at="2018-03-19T21:44:11Z" finished-at="2018-03-19T21:45:14Z">
+      <class name="MyTestNGTest">
+        <test-method status="PASS" signature="initDriverTest(java.lang.String)[pri:0, instance:MyTestNGTest@1a407d53]" name="initDriverTest" is-config="true" duration-ms="14688" started-at="2018-03-19T23:44:11Z" finished-at="2018-03-19T23:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriverTest -->
+        <test-method status="PASS" signature="AutenticationTest(java.lang.String, java.lang.String)[pri:0, instance:MyTestNGTest@1a407d53]" name="AutenticationTest" duration-ms="4461" started-at="2018-03-19T23:44:25Z" data-provider="Autentication" finished-at="2018-03-19T23:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webinar.test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xcg7299bnSmMuRLp9ITw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutenticationTest -->
+        <test-method status="PASS" signature="NavigateToAddProductTest()[pri:0, instance:MyTestNGTest@1a407d53]" name="NavigateToAddProductTest" duration-ms="10295" started-at="2018-03-19T23:44:30Z" depends-on-methods="MyTestNGTest.AutenticationTest" finished-at="2018-03-19T23:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAddProductTest -->
+        <test-method status="PASS" signature="AddNewProductTest()[pri:0, instance:MyTestNGTest@1a407d53]" name="AddNewProductTest" duration-ms="1931" started-at="2018-03-19T23:44:40Z" depends-on-methods="MyTestNGTest.NavigateToAddProductTest" finished-at="2018-03-19T23:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewProductTest -->
+        <test-method status="PASS" signature="shopTest()[pri:0, instance:MyTestNGTest@1a407d53]" name="shopTest" duration-ms="31182" started-at="2018-03-19T23:44:42Z" depends-on-methods="MyTestNGTest.AddNewProductTest" finished-at="2018-03-19T23:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyTestNGTest@1a407d53]" name="tearDown" is-config="true" duration-ms="445" started-at="2018-03-19T23:45:13Z" finished-at="2018-03-19T23:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyTestNGTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
